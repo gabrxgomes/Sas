@@ -1,2 +1,2 @@
 # Sas
-Repositório baseado em testes com Sass.
+Repositório baseado em testes com Sas.
