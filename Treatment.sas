@@ -1,0 +1,19 @@
+DATA INTRODUÇÃO;
+
+INPUT Produto$ Preço Data : yymmdd10.;
+FORMAT Data yymmdd10.;
+DATALINES;
+Arroz 5.49 2024-01-01
+Feijão 4.99 2024-01-01
+Macarrão 3.75 2024-01-01
+Leite 2.89 2024-01-01
+Açúcar 2.50 2024-01-01
+Café 12.99 2024-01-01
+Óleo 8.49 2024-01-01
+Farinha 4.50 2024-01-01
+Pão 3.20 2024-01-01
+Manteiga 6.75 2024-01-01
+;
+
+PROC PRINT;
+RUN;
