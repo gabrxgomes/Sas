@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_treatment_precos",
+  "source_file": "Treatment.sas",
+  "source_blob_sha": "be3ec2b48ea52e1765215383f51512044816467c",
+  "source_commit": "38ec7f862337d90620810027939ba2e3a56dc4cd",
+  "notes": "DATA INTRODUCAO with inline DATALINES of grocery products/prices/dates, uses the yymmdd10. informat on INPUT and FORMAT on output, then PROC PRINT. Runs unmodified; autoexec only caps rows via options obs=100."
+}

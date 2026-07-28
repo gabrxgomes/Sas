@@ -1,0 +1,42 @@
+                            The GLM Procedure                            
+                        Dependent Variable: pulg                         
+
+Source          DF    Sum of Squares      Mean Square   F Value    Pr > F
+--------  --------  ----------------  ---------------  --------  --------
+TRAT             5  1018968993.43750  203793798.68750      0.22    0.9456
+Error           10  9253193281.00000  925319328.10000                    
+
+Root MSE       30419.06192    R-Square            0.0992
+Adj R-Sq           -0.3512
+
+           Means for Effect: TRAT           
+
+Level            Mean      Std Dev         N
+--------  -----------  -----------  --------
+A         45641.33333  33278.01515         3
+B         56419.00000  32779.56618         3
+C         64193.33333  27961.87212         3
+D         45641.33333  33278.01515         3
+E         40122.50000  23569.99034         2
+F         51228.50000  23562.91927         2
+
+    Tukey's Studentized Range (HSD) Test for PULG    
+
+                                                     
+-----------------------------------  ----------------
+Alpha                                            0.05
+Error Degrees of Freedom                           10
+Error Mean Square                    925319328.100000
+Critical Value of Studentized Range           4.91202
+
+Means with the same letter are not significantly different.
+
+Tukey Grouping        Mean         N  TRAT    
+--------------  ----------  --------  --------
+A               64193.3333         3  C       
+A               56419.0000         3  B       
+A               51228.5000         2  F       
+A               45641.3333         3  A       
+A               45641.3333         3  D       
+A               40122.5000         2  E       
+
