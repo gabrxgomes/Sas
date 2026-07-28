@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-28T07:09:25Z",
+  "_captured_run_id": "r_a80395c742ab41febf1c945e3d5759ae",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 5 rows from DATALINES.",
+    "NOTE: Wrote Funcionarios (5 rows, 5 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

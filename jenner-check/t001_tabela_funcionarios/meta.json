@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_tabela_funcionarios",
+  "source_file": "TabelaFuncionarios.sas",
+  "source_blob_sha": "e1d7e080c8611f89184a5116377af578b0b190bc",
+  "source_commit": "38ec7f862337d90620810027939ba2e3a56dc4cd",
+  "notes": "Programa 2: DATA step with inline DATALINES creating dataset Funcionarios, PUT message to log, INPUT of matricula/nome/idade/sexo, then PROC PRINT. Runs unmodified; autoexec only caps rows via options obs=100."
+}

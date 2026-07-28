@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_pulgoes_glm",
+  "source_file": "TratamentoPulgoes.sas",
+  "source_blob_sha": "ce764dcff59ab2ba579683f9b615b9d17acc96b1",
+  "source_commit": "38ec7f862337d90620810027939ba2e3a56dc4cd",
+  "notes": "DATA PULGAO with inline DATALINES, then PROC GLM one-way ANOVA (CLASS TRAT; MODEL PULG = TRAT; MEANS TRAT / TUKEY) producing the ANOVA table, group means and Tukey HSD grouping. Runs unmodified; autoexec only caps rows via options obs=100."
+}
